@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Air Apps</title>
-	<atom:link href="https://airapps.co/feed/" rel="self" type="application/rss+xml" />
-	<link>https://airapps.co</link>
+	<atom:link href="https://its-aomi.github.io/airapps.co/feed/" rel="self" type="application/rss+xml" />
+	<link>https://its-aomi.github.io/airapps.co</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2022 05:29:49 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.1</generator>
 
 <image>
-	<url>https://airapps.co/wp-content/uploads/2022/11/cropped-Fav-icon-32x32.png</url>
+	<url>https://its-aomi.github.io/airapps.co/wp-content/uploads/2022/11/cropped-Fav-icon-32x32.png</url>
 	<title>Air Apps</title>
-	<link>https://airapps.co</link>
+	<link>https://its-aomi.github.io/airapps.co</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

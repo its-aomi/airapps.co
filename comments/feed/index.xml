@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Air Apps	</title>
-	<atom:link href="https://airapps.co/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://airapps.co</link>
+	<atom:link href="https://its-aomi.github.io/airapps.co/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://its-aomi.github.io/airapps.co</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2022 05:29:49 +0000</lastBuildDate>
 	<sy:updatePeriod>
