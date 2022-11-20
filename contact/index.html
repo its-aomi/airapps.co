@@ -7,8 +7,8 @@
 	<title>Contact &#8211; Air Apps</title>
 	<script type="module">
 		function recaptchaCallback() {
-    $('#submit').removeAttr('disabled');
-};
+  document.getElementById("submit").disabled = false;
+}
 	</script>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap" media="print" onload="this.media='all'">
@@ -2070,7 +2070,7 @@ top:300px !important;
 </p>
 <input type="checkbox" name="check" id="frm" class="ucheck" value="1" required><span class="privacypolicy-oo">By submitting this form I accept the <a class="privacypolicybutton-oo" href="https://its-aomi.github.io/airapps.co/privacy-policy">Privacy Policy</a> of this site.</span><br>
 <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LebzxsjAAAAADXi4pIaav88uYG1aZVaOxbmdoUR" data-theme="dark"></div>
-<button id="submit" type="submit" disabled>Submit</button><noscript>Please enable JavaScript for this form to work.</noscript>
+<button id="submit" type="submit" disabled="disabled">Submit</button><noscript>Please enable JavaScript for this form to work.</noscript>
 </div>
 </form>
 <!-- / HTML Forms -->
