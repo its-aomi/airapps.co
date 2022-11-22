@@ -9,7 +9,7 @@
 		focus();
 const listener = window.addEventListener('blur', () => {
   if (document.activeElement === document.querySelector('iframe')) {
-    alert ("clicked on iframe");
+    document.getElementById('submit').disabled = false
   }
   window.removeEventListener('blur', listener);
 });
@@ -2071,7 +2071,7 @@ top:300px !important;
 </p>
 <input type="checkbox" name="check" id="frm" class="ucheck" value="1" required><span class="privacypolicy-oo">By submitting this form I accept the <a class="privacypolicybutton-oo" href="https://its-aomi.github.io/airapps.co/privacy-policy">Privacy Policy</a> of this site.</span><br>
 <div class="g-recaptcha" data-sitekey="6LebzxsjAAAAADXi4pIaav88uYG1aZVaOxbmdoUR" data-theme="dark"></div>
-<button id="submit" type="submit">Submit</button><noscript>Please enable JavaScript for this form to work.</noscript>
+<button id="submit" type="submit" disabled="disabled">Submit</button><noscript>Please enable JavaScript for this form to work.</noscript>
 </div>
 </form>
 <!-- / HTML Forms -->
