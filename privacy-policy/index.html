@@ -47,6 +47,7 @@ img.emoji {
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="nsc_bar_nice-cookie-consent-css" href="https://its-aomi.github.io/airapps.co/wp-content/plugins/beautiful-and-responsive-cookie-consent/public/cookieNSCconsent.min.css" media="all">
 <link rel="stylesheet" id="hello-elementor-css" href="https://its-aomi.github.io/airapps.co/wp-content/themes/hello-elementor/style.min.css" media="all">
 <link rel="stylesheet" id="elementor-post-5-css" href="https://its-aomi.github.io/airapps.co/wp-content/uploads/elementor/css/post-5.css" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://its-aomi.github.io/airapps.co/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" media="all">
@@ -4339,6 +4340,64 @@ var localize = {"ajaxurl":"https:\/\/its-aomi.github.io\/airapps.co\/wp-admin\/a
 <script src="https://its-aomi.github.io/airapps.co/wp-content/uploads/essential-addons-elementor/eael-1122.js" id="eael-1122-js"></script>
 <script src="https://its-aomi.github.io/airapps.co/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
 <script src="https://its-aomi.github.io/airapps.co/wp-content/plugins/revslider/public/assets/js/rs6.min.js" defer async id="revmin-js"></script>
+<script src="https://its-aomi.github.io/airapps.co/wp-content/plugins/beautiful-and-responsive-cookie-consent/public/cookieNSCconsent.min.js" id="nsc_bar_nice-cookie-consent_js-js"></script>
+<script id="nsc_bar_nice-cookie-consent_js-js-after">
+window.addEventListener("load", function(){window.cookieconsent.initialise({
+    "content": {
+        "deny": "",
+        "dismiss": "I UNDERSTAND",
+        "allow": "",
+        "link": "",
+        "href": "",
+        "message": "By using this website, you agree that we and our partners may set cookies for purposes such as customising Air Apps Website content.",
+        "policy": "Cookie Settings",
+        "savesettings": "",
+        "target": "",
+        "linksecond": "",
+        "hrefsecond": "",
+        "close": "x"
+    },
+    "type": "info",
+    "palette": {
+        "popup": {
+            "background": "#000",
+            "text": "#fff"
+        },
+        "button": {
+            "background": "#007AFF",
+            "text": "#fff",
+            "border": ""
+        },
+        "switches": {
+            "background": "",
+            "backgroundChecked": "",
+            "switch": "",
+            "text": ""
+        }
+    },
+    "position": "bottom-right",
+    "theme": "block",
+    "cookietypes": [
+        {
+            "label": "Technical",
+            "checked": "checked",
+            "disabled": "disabled",
+            "cookie_suffix": "tech"
+        },
+        {
+            "label": "Marketing",
+            "checked": "",
+            "disabled": "",
+            "cookie_suffix": "marketing"
+        }
+    ],
+    "revokable": "0",
+    "container": "",
+    "customizedFont": "",
+    "dataLayerName": "dataLayer",
+    "improveBannerLoadingSpeed": "0"
+})});
+</script>
 <script id="rocket-browser-checker-js-after">
 "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
 </script>
@@ -4400,5 +4459,5 @@ var ekit_config = {"ajaxurl":"https:\/\/its-aomi.github.io\/airapps.co\/wp-admin
 </body>
 
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1669206624 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1669216585 -->
 </html>
